@@ -57,5 +57,6 @@ jobs:
         uses: actions/upload-artifact@v1
         with:
           name: zap-scan-report
-          path: ./script/report.html          
+          path: ./script/report.html
+          
           
