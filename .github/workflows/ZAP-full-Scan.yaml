@@ -7,10 +7,8 @@ on:
 jobs:
   build:
     runs-on: ubuntu-18.04
-    name: Scan the webapplication
     steps:
-      - name: Checkout
-        uses: actions/checkout@v2
+      - uses: actions/checkout@v2
       - name: Setup Python 2.7.18
         uses: actions/setup-python@v1
         with:
